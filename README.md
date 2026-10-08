@@ -19,3 +19,4 @@ To release a new version:
 ## Log
 
 - 2026-10-08T02:00:09Z: created — WDL bed_summary (python:3.12-bookworm, clones this repo at code_ref) + scripts/bed_summary.py; miniwdl check clean; local test on ENCSR000AHD/ENCSR000BKF peaks_inliers matches zcat|wc -l
+- 2026-10-08T02:17:42Z: registered + tested — .dockstore.yml added (GitHub App, publish: true), tag v0.1.0; Dockstore published main and v0.1.0 in 42 s; Terra smoke test in terra-billing-vir/tf-atlas-dev PASS (2/2 workflows, outputs written back)
