@@ -1,0 +1,9 @@
+version: 1.2
+workflows:
+  - name: bed_summary
+    subclass: WDL
+    primaryDescriptorPath: /wdl/bed_summary.wdl
+    publish: true
+    authors:
+      - name: Vivekanandan Ramalingam
+        email: vir@stanford.edu
